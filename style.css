@@ -1,0 +1,21 @@
+body{
+    background-image:url("background.jfif");
+    background-position:center;
+    background-size:cover;
+}
+h3{
+    margin:0px;
+    width:100%;
+    font-size:25px !important;
+    line-height:5;
+}
+canvas{
+    border-radius:20px;
+    animation-name:dog;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes dog{
+    from{box-shadow:5px 5px 50px pink;}
+    to{box-shadow:5px 5px 50px blue;}
+}
